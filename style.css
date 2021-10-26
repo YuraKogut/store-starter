@@ -1,0 +1,100 @@
+body{
+	font-family: Montserrat, sans-serif;
+}
+.header-menu{
+	padding: 30px 0;
+}
+.logo a{
+	font-size: 32px;
+	color: black;
+	font-weight: 900;
+	text-decoration: none;
+	border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+.menu{
+	 display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.menu a{
+	text-decoration: none;
+	color: gray;
+}
+.menu .unique{
+    border: 1px solid black;
+    background: black;
+    padding: 12px 25px;
+}
+.menu .unique a{
+	color: white;
+    letter-spacing: 2px;
+}
+.menu a:hover{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+	transition: 0.3s;
+}
+.menu .unique a:hover{
+	border: none;
+}
+.menu .unique:hover{
+	transition: 3s;
+	background: darkgray;
+	cursor: pointer;
+}
+
+.layout-1{
+	height: 620px;
+	background-image: url('img/icon-1.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 40px;
+}
+.inside-text{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 150px 0;
+}
+.inside-text h1{
+	margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 80px;
+    text-transform: none;
+    color: white;
+}
+.inside-text h1 span{
+	display: flex;
+    justify-content: center;
+}
+.inside-text p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.26;
+}
+.exp{
+	padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.exp a{
+	text-decoration: none;
+    color: white;
+    padding: 16px 35px;
+    background-color: #fff;
+    color: #202020;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.exp a:hover{
+	transition: 3s;
+	background: gray;
+}
